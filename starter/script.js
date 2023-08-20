@@ -122,3 +122,30 @@ const BMIJohn = massJohn / (heightJohn * heightJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
+
+
+
+const firstName = 'jobear';
+const job = 'programmer';
+const birthYear = 1999;
+const year = 2037;
+
+
+const Jobear = "I'm " + firstName + (year - birthYear) + ' years old ' + job + '!';
+console.log(Jobear);
+
+const jobearNew = `I'm ${firstName} , ${year - birthYear} year old ${job}.`;
+console.log(jobearNew);
+
+console.log(`Just a regular string...`);
+
+console.log('string with \n\
+multiple \n\
+lines');
+
+console.log(`It 
+is 
+a 
+multi
+line
+string`)
