@@ -1,4 +1,4 @@
-
+/*
 
 let js = 'amazing';
 console.log(40 + 8 + 23 - 10);
@@ -143,9 +143,70 @@ console.log('string with \n\
 multiple \n\
 lines');
 
-console.log(`It 
-is 
-a 
+console.log(`It
+is
+a
 multi
 line
 string`)
+
+
+
+// lecture 14
+
+const age = 15;
+
+if (age >= 18) {
+    console.log(`Sara can stat driving Licence 🚗 `);
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sara is too young . wait another ${yearsLeft} Years.`)
+};
+
+const birthYear = 2001;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+};
+console.log(century);
+
+
+
+//lecture 16
+
+//type Conversion
+const inputYear = '1997';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jobear'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// type coerction
+
+console.log('I am ' + 23 + ' years old');
+
+console.log('23' - '10' - 3);
+
+console.log('23' * '10');
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
+
+*/
+
+//lecture 17
+
+// js has 5 falsy values : 0 , '', undefined,null,NaN.
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jobear'));
+console.log(Boolean({}));
+console.log(Boolean(''));
