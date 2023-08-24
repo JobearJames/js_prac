@@ -199,7 +199,6 @@ let n = '1' + 1;
 n = n - 1;
 console.log(n);
 
-*/
 
 //lecture 17
 
@@ -210,3 +209,21 @@ console.log(Boolean(undefined));
 console.log(Boolean('Jobear'));
 console.log(Boolean({}));
 console.log(Boolean(''));
+
+const money = 100;
+if (money) {
+    console.log("Don't spend it all.");
+} else {
+    console.log('You shoud get a job');
+};
+
+let height = 1;
+if (height) {
+    console.log('YAY! Height is defined.');
+} else {
+    console.log('Height is UnDefined');
+};
+
+*/
+
+//lecture 18
