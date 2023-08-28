@@ -251,6 +251,32 @@ else if (favorite === 9) {
 
 if (favorite !== 9) console.log('Why not 9!');
 
-*/
+
 
 // lacture 19
+
+//lacture 20
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
+
+const shoudDrive = hasDriversLicense && hasGoodVision;
+
+
+
+const isTired = false;
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log('Sarah is able to drive!')
+} else {
+    console.log('Someone else shoud drive ..');
+};
+
+*/
+
+//lecture 21
