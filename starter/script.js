@@ -213,6 +213,7 @@ console.log(Boolean(''));
 const money = 100;
 if (money) {
     console.log("Don't spend it all.");
+
 } else {
     console.log('You shoud get a job');
 };
@@ -224,6 +225,32 @@ if (height) {
     console.log('Height is UnDefined');
 };
 
-*/
+
 
 //lecture 18
+
+const age = '18';
+if (age === 18) console.log('You Just Became an adult :D(strict)');
+
+if (age == 18) console.log('You Just Became an adult :D (loose)');
+
+const favorite = Number(prompt("What's your favorite number?"));
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite === 7) {
+    console.log('Cool! 7 is an amazaing number!')
+} else if (favorite === 8) {
+    console.log('8 is also a cool number!');
+}
+else if (favorite === 9) {
+    console.log("Cool this is number 9!")
+} else {
+    console.log('Number is not 7 or 8 or 9.')
+}
+
+if (favorite !== 9) console.log('Why not 9!');
+
+*/
+
+// lacture 19
