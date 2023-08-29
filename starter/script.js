@@ -311,8 +311,38 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
     console.log('No one wins the trophy.')
 }
 
-*/
 
 //lecture 22
 
-const day = 'monday';
+const day = 'saturday';
+
+switch (day) {
+    case 'monday':
+        console.log('plan course structure');
+        console.log('Go to codding meetup');
+        break;
+    case 'tusday':
+        console.log('Prepare theory Videos');
+        break;
+    case 'wednesday ':
+        console.log('Do code');
+        break;
+    case 'thursday':
+        console.log('Write code examples');
+        break;
+    case 'friday':
+        console.log('Record videos');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the weekend ');
+        break;
+
+    default:
+        console.log("Not a valid day!");
+
+}
+
+*/
+
+//lecture 23
