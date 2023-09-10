@@ -343,6 +343,24 @@ switch (day) {
 
 }
 
-*/
+
 
 //lecture 23
+
+3 + 4
+1991
+true && false && !false
+
+if (23 > 10) {
+    const str = '23 id bigger';
+}
+
+const me = 'Jobear';
+console.log(`I'm ${2037 - 1991} years old ${me}`);
+
+*/
+
+const age = 2;
+age >= 18 ? console.log(`I like to drink wine`) :
+    console.log(`I like to drink Water `);
+
