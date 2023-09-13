@@ -377,16 +377,15 @@ if (age >= 18) {
 
 console.log(drink2);
 
-console.log(`I like to drink ${age >= 18 ? `wine` : `Water`}`);
+console.log(`I like to drink ${age >= 18 ? `wine` : `Water`}`);0
 
 
 
 const bill = 430;
-const tip = bill <= 300 && bill >= 50 ? bill * .15 : bill * .20;
+const tip = bill <= 300 && bill >= 50 ? bill * .15 : bill * .20/;
 
 console.log(`The bill was ${bill} , the tip was ${tip}, and the total value ${bill + tip}`);
-
 */
 
-// lecture 26
+// lecture 26 
 
